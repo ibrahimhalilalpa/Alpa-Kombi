@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Twitter, Phone, Mail, MapPin } from "lucide-react";
+import logoImg from "../assets/favicon-32x32.png";
 
 const Footer = () => {
     return (
@@ -8,16 +9,17 @@ const Footer = () => {
                     {/* Company Info */}
                     <div>
                         <div className="flex items-center space-x-2 mb-4">
-                            <div className="w-8 h-8 bg-gradient-primary rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold">K</span>
+                            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-md">
+                                <img src={logoImg} alt="Alpa Kombi Logo" className="w-8 h-8 transition-transform duration-300 hover:scale-125"
+                                />
                             </div>
                             <div>
-                                <h3 className="text-lg font-bold">Karaca Kombi</h3>
+                                <h3 className="text-lg font-bold">Alpa Kombi</h3>
                                 <p className="text-xs text-white/70">Isıtma Çözümleri</p>
                             </div>
                         </div>
                         <p className="text-white/80 mb-4">
-                            Konya'da 15 yıllık deneyimimizle isıtma sistemleri konusunda
+                            Gaziantep'te 15 yıllık deneyimimizle isıtma sistemleri konusunda
                             güvenilir ve kaliteli hizmet sunuyoruz.
                         </p>
                         <div className="flex space-x-4">
@@ -59,18 +61,18 @@ const Footer = () => {
                         <div className="space-y-3">
                             <div className="flex items-center space-x-2">
                                 <Phone className="w-4 h-4 text-primary" />
-                                <span className="text-white/80">+90 534 407 13 66</span>
+                                <span className="text-white/80">+90 5417102113</span>
                             </div>
                             <div className="flex items-center space-x-2">
                                 <Mail className="w-4 h-4 text-primary" />
-                                <span className="text-white/80">info@konya-kombi.com</span>
+                                <span className="text-white/80">info@alpa-kombi.com</span>
                             </div>
                             <div className="flex items-start space-x-2">
                                 <MapPin className="w-4 h-4 text-primary mt-1" />
                                 <div className="text-white/80">
-                                    <p>Fevzi Çakmak Mah.</p>
-                                    <p>Konya Teknokent No:42</p>
-                                    <p>Selçuklu / Konya</p>
+                                    <p>Merveşehir Mah.</p>
+                                    <p>Gaziantep Teknokent No:42</p>
+                                    <p>Şahinbey / Gaziantep</p>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +82,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-white/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
                     <div className="text-white/60 text-sm mb-4 md:mb-0">
-                        © 2024 Karaca Kombi. Tüm hakları saklıdır.
+                        © 2024 Alpa Kombi. Tüm hakları saklıdır.
                     </div>
                     <div className="flex space-x-6 text-sm">
                         <a href="#" className="text-white/60 hover:text-white transition-colors">Gizlilik Politikası</a>

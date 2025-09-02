@@ -4,42 +4,42 @@ import { Star, Quote } from "lucide-react";
 const testimonials = [
     {
         name: "Mehmet Özkan",
-        location: "Selçuklu / Konya",
+        location: "Nizip / Gaziantep",
         rating: 5,
         text: "Kombim bozulmuştu, aynı gün gelip tamir ettiler. Çok memnun kaldım, herkese tavsiye ediyorum. Fiyatları da çok uygun.",
         service: "Kombi Onarımı"
     },
     {
         name: "Ayşe Demir",
-        location: "Karatay / Konya",
+        location: "Şahinbey / Gaziantep",
         rating: 5,
         text: "Yeni evimize kombi montajı yaptırdık. İşlerini çok temiz ve düzenli yapıyorlar. Kesinlikle profesyonel bir ekip.",
         service: "Kombi Montajı"
     },
     {
         name: "Ali Yılmaz",
-        location: "Meram / Konya",
+        location: "Nurdağı / Gaziantep",
         rating: 5,
-        text: "Peteklerin temizliğini yaptırdım, evi çok daha iyi ısıtıyor artık. Teşekkürler Konya Kombi ekibine!",
+        text: "Peteklerin temizliğini yaptırdım, evi çok daha iyi ısıtıyor artık. Teşekkürler Gaziantep Kombi ekibine!",
         service: "Petek Temizliği"
     },
     {
         name: "Fatma Kaya",
-        location: "Selçuklu / Konya",
+        location: "Yavuzeli / Gaziantep",
         rating: 5,
         text: "Gece kombim arızalandı, sabaha kadar üşüdük. Sabah ilk saatte arayıp gelip tamir ettiler. Çok teşekkürler.",
         service: "Acil Servis"
     },
     {
         name: "Hasan Çelik",
-        location: "Karatay / Konya",
+        location: "Şehitkamil / Gaziantep",
         rating: 5,
         text: "Doğalgaz tesisatımızı kurdurup kombi montajını yaptırdık. Her şey mükemmeldi, fiyat performans olarak da çok iyi.",
         service: "Doğalgaz Tesisatı"
     },
     {
         name: "Zeynep Şahin",
-        location: "Meram / Konya",
+        location: "İslahiye / Gaziantep",
         rating: 5,
         text: "Elektrikli kombi montajımızı yaptırdık. Gayet titiz çalışıyorlar ve işlerini iyi biliyorlar. Memnun kaldık.",
         service: "Elektrikli Kombi"
@@ -55,7 +55,7 @@ const TestimonialsSection = () => {
                         Müşteri Yorumları
                     </h2>
                     <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                        Konya'da binlerce mutlu müşterimizin deneyimlerini okuyun ve
+                        Gaziantep'te binlerce mutlu müşterimizin deneyimlerini okuyun ve
                         kaliteli hizmetimizle tanışın.
                     </p>
                 </div>

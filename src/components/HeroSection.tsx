@@ -23,7 +23,7 @@ const HeroSection = () => {
                             <span className="block text-yellow-300">Güvenilir Adresiniz</span>
                         </h1>
                         <p className="text-xl mb-8 text-white/90 leading-relaxed">
-                            Konya'da 15 yıllık deneyimimizle kombi montajı, bakım ve onarım hizmetlerinde
+                            Gaziantep'te 15 yıllık deneyimimizle kombi montajı, bakım ve onarım hizmetlerinde
                             kaliteli ve güvenilir çözümler sunuyoruz. 7/24 acil servis desteği ile yanınızdayız.
                         </p>
 
@@ -79,10 +79,10 @@ const HeroSection = () => {
                                 Acil durumlarınızda hemen bizimle iletişime geçin. Profesyonel ekibimiz en kısa sürede yanınızda!
                             </p>
                             <div className="space-y-4">
-                                <Button className="w-full" size="lg">
-                                    Hemen Ara: 0 534 407 13 66
+                                <Button className="w-full" size="lg" onClick={() => (window.location.href = "tel:+905417102113")}>
+                                    Hemen Ara: 0 541 710 2113
                                 </Button>
-                                <Button variant="outline" className="w-full" size="lg">
+                                <Button variant="outline" className="w-full" size="lg" onClick={() => (window.location.href = "tel:+905417102113")}>
                                     WhatsApp ile İletişim
                                 </Button>
                             </div>
